@@ -670,7 +670,7 @@
 	var calendarEl = document.querySelector('.calendar'),
 		calendarDays = [].slice.call(calendarEl.children),
 		settings = {
-			snow: false,
+			snow: true,
 			tilt: true
 		},
 		bgEl = document.body,
