@@ -8,6 +8,7 @@ A 3D Advent calendar with fun hover effects and background color animations. Cli
 
 [Demo](http://tympanus.net/Development/CubesAdventCalendar/)
 
+[Personnalisation par Franck G](https://fkgrim.github.io/CalendrierAventCubes/)
 ## License
 
 Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is". 
