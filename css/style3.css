@@ -126,6 +126,8 @@ a:focus {
 	left: 3vw;
 }
 
+.content__block--current{color:#DDF}
+
 @media screen and (max-width: 50.75em) {
 	.js .content__block {
 		padding: 4em 2em 0;
