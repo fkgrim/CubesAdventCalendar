@@ -40,31 +40,37 @@ a:focus {
 	border: 3px solid #fff;
 	outline: 1px solid #fff;
 	background: #f0f0f0 url(../img/c1.png) no-repeat center center;
+	background-size: cover;
 }
 
 .cube:not(.cube--inactive):nth-child(2n) .cube__side,
 .no-js .cube:not(.cube--inactive):nth-child(2n) {
 	background-image: url(../img/c2.png);
+	background-size: cover;
 }
 
 .cube:not(.cube--inactive):nth-child(3n) .cube__side,
 .no-js .cube:not(.cube--inactive):nth-child(3n) {
 	background-image: url(../img/c3.png);
+	background-size: cover;
 }
 
 .cube:not(.cube--inactive):nth-child(4n) .cube__side,
 .no-js .cube:not(.cube--inactive):nth-child(4n) {
 	background-image: url(../img/c4.png);
+	background-size: cover;
 }
 
 .cube:not(.cube--inactive):nth-child(5n) .cube__side,
 .no-js .cube:not(.cube--inactive):nth-child(5n) {
 	background-image: url(../img/c5.png);
+	background-size: cover;
 }
 
 .cube--inactive .cube__side,
 .no-js .cube--inactive {
 	background: #e6e6e6;
+	background-size: cover;
 }
 
 
