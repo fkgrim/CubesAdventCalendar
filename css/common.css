@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', sans-serif;
 	color: #3f3f45;
 	background: #f0f0f3;
 	transition: background-color 0.8s;
@@ -477,7 +477,10 @@ main {
 }
 
 .content__meta::before {
-	content: '\2014';
+	content: '\2014\00A0';
+}
+.content__meta::after {
+	content: '\00A0\2014';
 }
 
 .content__number {
